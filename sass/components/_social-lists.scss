@@ -1,0 +1,16 @@
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__footer {
+    display: inline-block;
+    margin-left: 70px;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}

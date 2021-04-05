@@ -1,0 +1,48 @@
+.specialties {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
+.specs-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+
+  &__item {
+    display: block;
+    flex-basis: calc(100% / 4 - 90px);
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  &__logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+  }
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--background-color-main);
+  }
+
+  &__subtitle {
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--logo-text-main);
+  }
+
+  &__about {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+  }
+}

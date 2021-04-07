@@ -1,57 +1,78 @@
 .header {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ececec;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.menu {
-  display: flex;
-  justify-items: center;
-  align-items: center;
+.nav-list {
+  display: none;
 }
 
 .header-contacts {
-  display: block;
-  margin-left: auto;
-  align-items: center;
+  display: none;
 }
 
-.header-contacts__mail {
-  display: inline-block;
-  margin-right: 30px;
-  fill: var(--secondary-text-color);
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-.header-contacts__tel {
-  display: inline-block;
-  fill: var(--secondary-text-color);
-}
+// .header {
+//   display: flex;
+//   align-items: center;
+//   border-bottom: 1px solid #ececec;
+// }
 
-.header-contacts__link {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--secondary-text-color);
+// .menu {
+//   display: flex;
+//   justify-items: center;
+//   align-items: center;
+// }
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// .header-contacts {
+//   display: block;
+//   margin-left: auto;
+//   align-items: center;
+// }
 
-  &:hover,
-  &:focus {
-    fill: var(--accent-color);
-    color: var(--accent-color);
-  }
-}
+// .header-contacts__mail {
+//   display: inline-block;
+//   margin-right: 30px;
+//   fill: var(--secondary-text-color);
+// }
 
-.header-contacts__icon-envelope {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
+// .header-contacts__tel {
+//   display: inline-block;
+//   fill: var(--secondary-text-color);
+// }
 
-.header-contacts__icon-phone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-}
+// .header-contacts__link {
+//   display: flex;
+//   align-items: center;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+//   color: var(--secondary-text-color);
+
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover,
+//   &:focus {
+//     fill: var(--accent-color);
+//     color: var(--accent-color);
+//   }
+// }
+
+// .header-contacts__icon-envelope {
+//   width: 16px;
+//   height: 12px;
+//   margin-right: 10px;
+// }
+
+// .header-contacts__icon-phone {
+//   width: 10px;
+//   height: 16px;
+//   margin-right: 10px;
+// }

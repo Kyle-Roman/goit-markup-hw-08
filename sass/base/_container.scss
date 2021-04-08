@@ -7,11 +7,17 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .hero & {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 696px;
+  }
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 448px;
+    width: 450px;
     margin: 0 auto;
   }
 }
@@ -38,10 +44,4 @@
 // .footer & {
 //   display: flex;
 //   align-items: baseline;
-// }
-
-// .hero & {
-//   padding-top: 200px;
-//   padding-bottom: 200px;
-//   max-width: 696px;
 // }

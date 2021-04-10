@@ -5,7 +5,7 @@
   left: 0;
   height: 100%;
   padding: 60px 24px;
-  background-color: var(--accent-color);
+  background-color: transparent;
   color: var(--accent-text-color);
   overflow: auto;
   font-family: Roboto;
@@ -20,5 +20,6 @@
   .list-items:focus & {
     transform: translateY(0%);
     opacity: 0.9;
+    background-color: var(--accent-color);
   }
 }

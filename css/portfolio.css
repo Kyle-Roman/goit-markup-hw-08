@@ -173,7 +173,6 @@ img {
   min-width: 200px;
   padding: 10px 32px;
   align-self: center;
-  margin-bottom: 40px;
   color: var(--accent-text-color);
   background: var(--accent-color);
   border-radius: 4px;
@@ -237,7 +236,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 60px;
 }
 
 .social-list__item:not(:last-child) {

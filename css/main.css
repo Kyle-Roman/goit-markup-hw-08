@@ -173,7 +173,6 @@ img {
   min-width: 200px;
   padding: 10px 32px;
   align-self: center;
-  margin-bottom: 40px;
   color: var(--accent-text-color);
   background: var(--accent-color);
   border-radius: 4px;
@@ -237,7 +236,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 60px;
 }
 
 .social-list__item:not(:last-child) {
@@ -378,7 +376,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .modal {
-    width: 450px;
+    width: 460px;
   }
 }
 
@@ -471,8 +469,8 @@ img {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   color: var(--secondary-text-color);
 }
 
@@ -502,27 +500,6 @@ img {
 
 .licence-agreement {
   color: var(--accent-color);
-}
-
-.modal-form-btn {
-  min-width: 200px;
-  padding: 10px 32px;
-  align-self: center;
-  margin-bottom: 40px;
-  color: var(--accent-text-color);
-  background: var(--accent-color);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-}
-
-.modal-form-btn:hover, .modal-form-btn:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
 }
 
 .nav-list {

@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
 
   &__item {
     &:not(:last-child) {
@@ -14,5 +15,6 @@
   .social-list__footer {
     display: inline-block;
     margin-left: 70px;
+    margin-bottom: 0;
   }
 }

@@ -77,9 +77,6 @@
 }
 
 .modal-form-check-desc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
   font-size: 12px;
   line-height: 1.16;
@@ -112,4 +109,12 @@
 
 .licence-agreement {
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form-check-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
